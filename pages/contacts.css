@@ -1,0 +1,156 @@
+html {
+  width: 100%;
+}
+
+.container-contact {
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.header-image {
+  background: url("../images/header_contact1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 48px;
+  text-align: center;
+}
+.flexx-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--color-maroon);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  align-content: center;
+}
+.flexx-container img {
+  width: 30vw;
+  height: 100%;
+  position: relative;
+  top: 0%;
+}
+
+.flexx-container div h3 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.underline p {
+  text-align: center;
+}
+
+form {
+  margin-top: 1rem;
+  background-color: var(--color-maroon);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+form textarea {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: start;
+}
+
+form .button {
+  background-color: var(--color-maroon1);
+  width: 70%;
+  border: solid var(--color-maroon1);
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form .input {
+  position: relative;
+  text-align: start;
+
+  border-radius: 10px;
+  width: 70%;
+}
+
+form label,
+.label {
+  position: relative;
+  text-align: start;
+}
+
+form .label {
+  position: relative;
+  text-align: start;
+  left: 6.5vw;
+}
+
+p {
+  margin-top: 0.2rem;
+  flex: content;
+}
+
+@media (max-width: 1000px) {
+  .header-image {
+    height: 20rem;
+    overflow-y: hidden;
+    margin-top: 0;
+    background-position: center;
+    background-image: cover;
+  }
+  form label .label {
+    width: 100vw;
+    text-align: start;
+  }
+  form label .nom {
+    width: 100vw;
+    text-align: start;
+  }
+  form .label {
+    padding-left: 6vw;
+  }
+  form textarea {
+    width: 50vw;
+    height: 6rem;
+    border-radius: 10px;
+  }
+
+  form {
+    margin-top: 1rem;
+    background-color: var(--color-maroon);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  form .input {
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .flexx-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  body {
+    background-color: var(--font-color-marron-light);
+  }
+}

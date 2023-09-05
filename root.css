@@ -1,0 +1,212 @@
+:root {
+  --primary-color: #8b9781; /*var(--primary-color)*/
+  --secondary-color: #d9d9d9; /*var(--secondary-color)*/
+  --third-color: #0b3e27; /*var(--third-color)*/
+  --color-maroon: rgba(199, 129, 92, 1); /*var(--color-maroon)*/
+  --color-maroon-foncé: rgba(167, 111, 81, 1); /*var(--color-maroon-foncé)*/
+  --color-maroon1: #b4724ff0; /*var(--color-maroon)*/
+  --color-vert-clair1: #b7b7a4; /*var(--color-vert-clair1)*/
+  --font-color-noir: black; /*color: var(--font-color-noir)*/
+  --font-color-orange: #ffa500; /*color: var(--font-color-orange)*/
+  --font-color-rouge: #ff0000; /*color: var(--font-color-rouge)*/
+  --font-color-blanche: white; /*color: var(--font-color-blanche)*/
+  --font-color-kaki: #a5a58d; /*color: var(--font-color-kaki)*/
+  --font-color-kaki2: #6b705c; /*color: var(--font-color-kaki2)*/
+  --font-color-marron-light: rgba(
+    203,
+    153,
+    126,
+    1
+  ); /*color: var(--font-color-marron-light)*/
+
+  --font-color-grey: rgba(30, 30, 30, 0.82); /* color: var(--font-color-grey)*/
+
+  --font-primary: "Inter", sans-serif; /* font-family:var(--font-primary)*/
+}
+
+.topnav {
+  background-color: var(--primary-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  float: left;
+  width: 100%;
+  z-index: 100;
+}
+
+.topnav-maroon {
+  background-color: var(--font-color-marron-light);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  float: left;
+  width: 100%;
+  z-index: 100;
+}
+
+.topnav .brand {
+  text-align: center;
+  color: var(--font-color-noir);
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.topnav img {
+  width: 4rem;
+  height: 3rem;
+  margin-right: 5vw;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 80px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  opacity: 0.7;
+  z-index: 110;
+}
+
+.open-sidenav {
+  width: 30%;
+}
+
+.close-sidenav {
+  width: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--font-color-blanche);
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  font-family: var(--font-primary);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: var(--font-color-noir);
+}
+.topnav .openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--font-color-noir);
+}
+
+.sidenav .copywrite {
+  background-color: var(--font-color-noir);
+  text-align: center;
+  color: var(--font-color-blanche);
+  font-size: 1rem;
+  opacity: 0.25;
+}
+.sidenav .copywrite a {
+  color: rgb(51, 228, 196);
+  font-size: 1rem;
+}
+
+.sidenav .social-links a {
+  padding: 0.5rem;
+  color: var(--font-color-blanche);
+  font-size: 3rem;
+}
+
+footer {
+  background-color: #1e1e1ed1;
+  opacity: 0.82;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+  z-index: 100;
+}
+
+footer .brand a {
+  font-size: 3rem;
+  color: var(--font-color-blanche);
+  text-align: center;
+  padding-left: 6.1rem;
+  text-decoration: none;
+}
+
+footer .contacts {
+  font-size: 1rem;
+  color: var(--font-color-blanche);
+  text-align: left;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 560px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .open-sidenav {
+    width: 100%;
+  }
+
+  .responsive {
+    width: 0;
+  }
+  footer {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1% 49% 49%;
+  }
+
+  footer .brand {
+    text-align: center;
+  }
+  footer .brand a {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  footer .contacts {
+    text-align: center;
+  }
+}

@@ -1,0 +1,212 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.image {
+  background-image: url(./images/back-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  overflow-y: hidden;
+}
+
+h1 {
+  padding-top: 150px;
+}
+
+.container-title {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.container-title .en-tete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+section {
+  background-color: #eeeeee;
+  color: var(--font-color-noir);
+  font-family: var(--font-primary);
+  font-size: 1.2vw;
+  background-color: var(--primary-color);
+  text-align: center;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-container .titre {
+  grid-column: 1 / span 2;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 3vh;
+}
+
+.grid-container .col11 {
+  width: 100%;
+  height: 50vh;
+  justify-self: center;
+  padding-top: 15vh;
+  background-color: var(--font-color-kaki);
+}
+
+.grid-container .col12 {
+  background-image: url(./images/img5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  justify-self: center;
+}
+
+.grid-container .col21 {
+  background-image: url(./images/accueil-cartons.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  justify-self: center;
+}
+
+.grid-container .col22 {
+  width: 100%;
+  justify-self: center;
+  padding-top: 15vh;
+  background-color: var(--font-color-kaki2);
+  height: 50vh;
+}
+
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--font-color-noir);
+  color: var(--secondary-color);
+  letter-spacing: 5%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.marquee-wrapper:after {
+  position: absolute;
+  content: " ";
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  background-image: linear-gradient(to right, transparent, #fff);
+}
+
+.marquee {
+  white-space: nowrap;
+}
+
+.container-title button {
+  background-color: var(--font-color-grey);
+  width: 20%;
+  height: 15%;
+  border: none;
+  border-radius: 30px;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 1000px) {
+  .body {
+    height: 50vh;
+  }
+
+  .image {
+    background-image: url(./images/back-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+    overflow-y: hidden;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-repeat: no-repeat;
+    background-size: 10vh 10vw;
+    background-size: cover;
+    display: grid;
+  }
+
+  .container-title .title {
+    grid-column: 1;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  section {
+    background-color: #eeeeee;
+    color: var(--font-color-noir);
+    font-family: var(--font-primary);
+    font-size: 2vw;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    display: flex;
+  }
+
+  .grid-container .col11 {
+    background-color: var(--font-color-kaki);
+    font-size: 2vw;
+    height: 20vh;
+    padding-bottom: 0%;
+    padding-top: 2rem;
+  }
+  .grid-container .col12 {
+    display: none;
+  }
+
+  .grid-container .col21 {
+    display: none;
+  }
+
+  .grid-container .col22 {
+    justify-self: center;
+    background-color: var(--font-color-kaki2);
+    font-size: 2vw;
+    height: 20vh;
+    padding-top: 2rem;
+  }
+  .marquee {
+    height: 1vh;
+  }
+  .marquee-wrapper {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 420px) and (max-width: 960px) {
+  .cont-image {
+    padding-top: 3rem;
+  }
+
+  .image {
+    margin-top: -6vh;
+    height: 28vh;
+    overflow-y: hidden;
+  }
+}

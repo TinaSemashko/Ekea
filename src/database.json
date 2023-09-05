@@ -1,0 +1,182 @@
+[
+  {
+    "id": "01",
+    "name": "header",
+    "image": "../images/header.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "index",
+    "type": ""
+  },
+  {
+    "id": "02",
+    "name": "img5",
+    "image": "../images/img5.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "index",
+    "type": ""
+  },
+  {
+    "id": "03",
+    "name": "header_contact",
+    "image": "../images/header_contact.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "index",
+    "type": ""
+  },
+  {
+    "id": "04",
+    "name": "header_inspi",
+    "image": "../images/header_inspi1.jpg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "05first",
+    "name": "Chambre Zen",
+    "image": "../images/img1.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "06second",
+    "name": "Cuisine Moderne",
+    "image": "../images/img6.jpg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "07third",
+    "name": "Salon Élégance",
+    "image": "../images/img4.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "08forth",
+    "name": "Salon détente",
+    "image": "../images/img5.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "09fifth",
+    "name": "Salon Bohème",
+    "image": "../images/img3.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "10sixth",
+    "name": "Chambre Urbainen",
+    "image": "../images/header_inspiration.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "inspiration",
+    "type": ""
+  },
+  {
+    "id": "11",
+    "name": "header_contact",
+    "image": "../images/header_contact.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "contacts",
+    "type": ""
+  },
+  {
+    "id": "12",
+    "name": "Map",
+    "image": "../images/Map.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "contacts",
+    "type": ""
+  },
+  {
+    "id": "13",
+    "name": "img-services",
+    "image": "../images/img-services.jpeg",
+    "discription": "",
+    "price": "",
+    "page": "services",
+    "type": ""
+  },
+  {
+    "id": "14",
+    "name": "",
+    "image": "../images/header_produit.jpeg",
+    "discription": "Fauteuil design en bois et tissu \nDimension et poids :\nProfondeur 80 cm \nHauteur 79 cm\nLongueur 65 cm",
+    "price": "100",
+    "page": "produits",
+    "type": "confort"
+  },
+  {
+    "id": "15first",
+    "name": "Fauteuil Supra",
+    "image": "../images/confort_1.jpeg",
+    "discription": "Fauteuil design en bois et tissu \nDimension et poids :\nProfondeur 80 cm \nHauteur 79 cm\nLongueur 65 cm",
+    "price": "100",
+    "page": "produits",
+    "type": "confort"
+  },
+  {
+    "id": "16second",
+    "name": "Fauteuil Dhiarry",
+    "image": "../images/img2.jpeg",
+    "discription": "Fauteuil design en bois et tissu \nDimension et poids :\nProfondeur 80 cm \nHauteur 79 cm\nLongueur 85 cm",
+    "price": "200",
+    "page": "produits",
+    "type": "confort"
+  },
+  {
+    "id": "17third",
+    "name": "Bureau Dembourabah",
+    "image": "../images/surface-1.jpeg",
+    "discription": "Bureau moderne en bois \nDimension et poids :\n Profondeur 80 cm \n Hauteur 150 cm \n Longueur 185 cm",
+    "price": "150",
+    "page": "produits",
+    "type": "surface"
+  },
+  {
+    "id": "18forth",
+    "name": "Table Xavitina",
+    "image": "../images/surface-2.jpeg",
+    "discription": "Table industrielle en bois \nDimension et poids :\nProfondeur 80 cm \nHauteur 150 cm \nLongueur 185 cm",
+    "price": "200",
+    "page": "produits",
+    "type": "surface"
+  },
+  {
+    "id": "19fifth",
+    "name": "Pot Marcaaron",
+    "image": "../images/deco-1.jpeg",
+    "discription": "Pots en bois  \nDimension et poids :\nProfondeur 80 cm \nHauteur 150 cm \nLongueur 185 cm",
+    "price": "50",
+    "page": "produits",
+    "type": "decoration"
+  },
+  {
+    "id": "20sixth",
+    "name": "Miroir Davimartinio",
+    "image": "../images/deco-2.jpeg",
+    "discription": "Miroir \nDimension et poids :\nHauteur 80 cm\nLongueur 55 cm",
+    "price": "90",
+    "page": "produits",
+    "type": "decoration"
+  }
+]
